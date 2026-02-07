@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(chcp:*)",
+      "Bash(pip install:*)",
+      "Bash(gh:*)",
+      "Bash(winget install:*)",
+      "Bash(export:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo list --limit 50)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
